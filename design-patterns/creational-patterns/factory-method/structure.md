@@ -13,9 +13,3 @@
 
 **Concrete Creators**: override the base factory method so it returns a different type of product.
 - Doesn't always need to create new istances. Can return exdisting objects from a cache/object pool/other source.
-
-## Implementation
-
-1. Make all products follow the same interface. Interface needs to declare methods that make sense in every product.
-
-2. 
